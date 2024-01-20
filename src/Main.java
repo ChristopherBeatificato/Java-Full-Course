@@ -47,6 +47,8 @@ Switch Cases
     }
 
 Two Dimensional Arrays
-    int arr[][]
+    int arr[][] = { {2, 7, 9}, {3, 6, 1} };[each block of {} is a row, and inside that row are columns.
+    ex: the 2 in the first row would be first row 2nd column]
+    System.out.println(arr[0][1]) [This will print row 0, column 1 meaning 7 will be printed]
 
  */
