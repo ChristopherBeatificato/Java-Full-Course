@@ -2,8 +2,12 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        for (int num1 = 1; num1<10; num1++){
-            System.out.println("Count is: " + num1);
+        int arr[][] = { {2, 7, 9}, {3, 6, 1}, {7, 4, 2} };
+        for (int i = 0; i < 3; i++){
+            for (int j = 0; j < 3; j++){
+                System.out.println(arr[i][j] + " ");
+            }
+            System.out.println();
         }
     }
 }
@@ -78,4 +82,25 @@ For Loops
     }
 
 Enhanced For Loop
+    [Enhanced for Loops utilize something called a collection. An array is a type of collection. This loop
+    can be used to slowly cycle through all the elements of your array. To easily see this see the example]
+    int[] numbers = {1,2,3,4,5,6,7,8,9,10};
+    for (int count : numbers) {
+        System.out.println("Count is: " + count);
+        if (numbers = 4){
+            System.out.println("This is 4");
+        }
+    }
+
+Nested For Loop
+    [Nested For Loops can be used whenever you have a situation in which you need to iterate a collection
+    based off of another collection. Hard to explain in words just copy and paste this example and it should
+    make sense. It basically finishes the entire sub for loop before ending/checking the main for loop again.]
+    int arr[][] = { {2, 7, 9}, {3, 6, 1}, {7, 4, 2} }
+    for (int i = 0; i < 3; i++){
+        for (int j = 0; j < 3; j++){
+            System.out.println(arr[i][j] + " ");
+        }
+        System.out.println();
+    }
  */
