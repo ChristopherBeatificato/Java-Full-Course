@@ -2,7 +2,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-
+        for (int num1 = 1; num1<10; num1++){
+            System.out.println("Count is: " + num1);
+        }
     }
 }
 
@@ -48,7 +50,32 @@ Switch Cases
 
 Two Dimensional Arrays
     int arr[][] = { {2, 7, 9}, {3, 6, 1} };[each block of {} is a row, and inside that row are columns.
-    ex: the 2 in the first row would be first row 2nd column]
+    ex: the 2 in the 0 row would be row 0 column 0]
     System.out.println(arr[0][1]) [This will print row 0, column 1 meaning 7 will be printed]
 
+Do While Loops
+    [The do while loop is very similar to a while loop. The only difference is in a do while Loop the
+    statement will be printed ONCE, then only be repeated if the expression stated after the while is true.]
+    int count = 11;
+    do {
+        System.out.println("Hello there!");
+        } while (count < 10)
+
+While Loops
+    [While loops are very simple. They are basically loops that will only execute this statement if the
+    expression after while is true.]
+    int count = 1;
+    while (count < 10) {
+        System.out.println("Count is: " + count);
+        count++;
+    }
+
+For Loops
+    [For Loops are basically complex while loops. They are used for a more compact loop. The variable created
+    inside the for loop cannot be used outside the for loop]
+    for (num1 = 1; num1<10; num1++){ [initialization; termination; increment]
+        System.out.println("Count is: " + num1);
+    }
+
+Enhanced For Loop
  */
